@@ -26,7 +26,7 @@ function App() {
               <a href={"tel:83912950948"}><img src={phone} alt=""/>8 (391) 295-09-48</a>
           </div>
           <div className="btn">
-              <button>Онлайн-запись</button>
+              <button>Онлайн-записьdx</button>
           </div>
 
       </div>
