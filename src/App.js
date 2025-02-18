@@ -11,6 +11,7 @@ import Page3 from "./components/Page 3";
 import Page4 from "./components/Page 4";
 import Page5 from "./components/Page 5";
 import Page6 from "./components/Page 6";
+import MainPage from "./components/Main Page";
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
               <a href={"tel:83912950948"}><img src={phone} alt=""/>8 (391) 295-09-48</a>
           </div>
           <div className="btn">
-              <button>Онлайн-записьdx</button>
+              <button>Онлайн-запись</button>
           </div>
 
       </div>
@@ -42,6 +43,7 @@ function App() {
         </div>
 
         <Routes>
+            <Route path={"/"} element={<MainPage/>}/>
             <Route path={"/цены"} element={<Page1/>}/>
             <Route path={"/услуги"} element={<Page2/>}/>
             <Route path={"/специалисты"} element={<Page3/>}/>
